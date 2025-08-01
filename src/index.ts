@@ -1,6 +1,6 @@
 import "reflect-metadata";
-import Server from './models/server'
+import ServerApp from './models/server'
 
-const server = new Server();
+const server = new ServerApp();
 
 server.listen();
